@@ -25,6 +25,11 @@ Obviously, as with any addon, you shouldn't trust it. Luckily, the entire code
 for this project is ~150 lines of code, feel free to read it yourself. It's
 pretty straightforward.
 
+I've really only tested this in Ironforge. Ultimately, if you have >=1g on
+your character this addon will do absolutely nothing other than automatially
+put a single perfume or cologne in the trade window. Just remove or disable
+this addon when you no longer want this functionality.
+
 # Perfume Giver (>= 1 gold on character)
 
 In perfume giver mode, anyone who trades with you will automatically cause
