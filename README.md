@@ -7,6 +7,24 @@ This addon has two modes, a Perfume Giver mode, which is activated if your
 character has >= 1 gold, and a chocolate miner mode, which is activated if you
 have less than 1 gold.
 
+# Installing
+
+You can use the following link to download the ZIP from GitHub
+
+https://github.com/gamozolabs/OnorineAutoCandy/archive/refs/heads/main.zip
+
+Simply download the zip, extract it, and rename `OnorineAutoCandy-main` to
+`OnorineAutoCandy` and place it into `Interface/Addons`
+
+If you use something like WoWUp, you should be able to directly import from
+GitHub.
+
+# Safety
+
+Obviously, as with any addon, you shouldn't trust it. Luckily, the entire code
+for this project is ~150 lines of code, feel free to read it yourself. It's
+pretty straightforward.
+
 # Perfume Giver (>= 1 gold on character)
 
 In perfume giver mode, anyone who trades with you will automatically cause
@@ -15,7 +33,7 @@ cannot be automated legally, thus you still have to accept the trade.
 
 This is the only feature of the perfume giver mode.
 
-# Chocolate Miner
+# Chocolate Miner (< 1 gold on character)
 
 In chocolate miner mode it is expected that you trade a character who is
 a perfume giver to receive a single perfume or cologne. You then need to use
