@@ -1,3 +1,5 @@
+Made with love by Onorine - Jom Gabbar (previously Mutanus and Grobbulus)
+
 # Summary
 
 OnorineAutoCandy is an addon to assist in automating the process of farming
@@ -6,6 +8,11 @@ for boxes of chocolates in WoW Classic.
 This addon has two modes, a Perfume Giver mode, which is activated if your
 character has >= 1 gold, and a chocolate miner mode, which is activated if you
 have less than 1 gold.
+
+# PRs
+
+I'm sure there's things that could be done to improve this process. Let me
+know via an issue or a PR if you have a bugfix or an improvement.
 
 # Installing
 
