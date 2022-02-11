@@ -42,7 +42,7 @@ end
 
 -- Searches containers for gifts of adoration
 function get_gifts()
-    local bottles = {}
+    local gifts = {}
     for bag = BACKPACK_CONTAINER, NUM_BAG_SLOTS do
         for slot = 1, GetContainerNumSlots(bag) do
             local itemid = GetContainerItemID(bag, slot)
@@ -52,12 +52,12 @@ function get_gifts()
                itemid == GIFT_OF_ADORATION_STORMWIND or
                itemid == GIFT_OF_ADORATION_THUNDERBLUFF or
                itemid == GIFT_OF_ADORATION_UNDERCITY then
-                table.insert(bottles, { bag, slot })
+                table.insert(gifts, { bag, slot })
             end
         end
     end
 
-    return bottles
+    return gifts
 end
 
 frame:SetScript("OnEvent", function(self, event, arg1, arg2)
@@ -103,7 +103,8 @@ frame:SetScript("OnEvent", function(self, event, arg1, arg2)
                 local typ  = gossip_options[gossip + 1]
 
                 -- Match for turning in love token
-                if desc == "Here, I'd like to give you this token of my love." and typ == "gossip" then
+                if desc == "Here, I'd like to give you this token of my love."
+                        and typ == "gossip" then
                     SelectGossipOption((gossip + 1) / 2)
                 end
 
