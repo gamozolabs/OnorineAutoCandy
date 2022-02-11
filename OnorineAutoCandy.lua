@@ -118,9 +118,15 @@ frame:SetScript("OnEvent", function(self, event, arg1, arg2)
         -- Take everything out of the Gift of Adoration
         for slot = 1, GetNumLootItems() do
             local item_link = GetLootSlotLink(slot)
-            if item_link:find("^|cffffffff|Hitem:21812:") then
-                -- If it's a chocolate do not loot it!
-                print("Found a chocolate!")
+            if item_link:find("^|cffffffff|Hitem:21812:") or   -- Chocolates
+               item_link:find("^|cffffffff|Hitem:22235:") or   -- Shafted arrow
+               item_link:find("^|cffffffff|Hitem:22259:") then -- Bracelet
+
+               -- Do not loot boxes of chocolate, friendship bracelets,
+               -- Truesilver Shafted Arrows
+               --
+               -- These are all BoP, we do not want to lock them to a character
+                print("Found a valuable item, not looting!")
             else
                 -- Loot the item since it's not a chocolate
                 LootSlot(slot)

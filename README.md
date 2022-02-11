@@ -62,8 +62,8 @@ buy a love token and close the merchant window.
 Then, you can click on an NPC and it will automatically turn in the love token.
 If your love token is accepted successfully and you recieve a gift of adoration
 the addon will automatically open it, and loot every item except for
-a box of chocolates. This will leave a gift that only contains a box of
-chocolates in it.
+a box of chocolates, shafted arrow (pet), and bracelets (cure broken heart).
+This will leave the gift with minimal cruft for storage.
 
 If you are lucky and successfully get a box of chocolates, trade with another
 character again and the addon will automatically place the gift into the
