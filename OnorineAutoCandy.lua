@@ -20,9 +20,9 @@ local GIFT_OF_ADORATION_UNDERCITY    = 22166
 -- Determine if we are a character who should be giving out perfumes, or
 -- doing chocolate automation.
 --
--- Simply, if we have more than 1g, we'll give out perfumes, otherwise we'll
--- be in chocolate mode.
-local perfume_giver = GetMoney() >= 10000
+-- Simply, if we have >= 50 copper, we'll give out perfumes, otherwise
+-- we'll be in chocolate mode.
+local perfume_giver = GetMoney() >= 50
 
 -- Searches containers for perfume bottles or cologne bottles and returns
 -- the list of where they can be found by bag index and slot

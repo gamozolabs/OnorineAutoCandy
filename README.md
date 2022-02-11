@@ -6,8 +6,8 @@ OnorineAutoCandy is an addon to assist in automating the process of farming
 for boxes of chocolates in WoW Classic.
 
 This addon has two modes, a Perfume Giver mode, which is activated if your
-character has >= 1 gold, and a chocolate miner mode, which is activated if you
-have less than 1 gold.
+character has >= 50 copper, and a chocolate miner mode, which is activated if you
+have less than 50 copper.
 
 # PRs
 
@@ -32,12 +32,12 @@ Obviously, as with any addon, you shouldn't trust it. Luckily, the entire code
 for this project is ~150 lines of code, feel free to read it yourself. It's
 pretty straightforward.
 
-I've really only tested this in Ironforge. Ultimately, if you have >=1g on
+I've really only tested this in Ironforge. Ultimately, if you have >=50c on
 your character this addon will do absolutely nothing other than automatially
 put a single perfume or cologne in the trade window. Just remove or disable
 this addon when you no longer want this functionality.
 
-# Perfume Giver (>= 1 gold on character)
+# Perfume Giver (>= 50 copper on character)
 
 In perfume giver mode, anyone who trades with you will automatically cause
 you to post a single perfume or cologne into the trade window. Trading itself
@@ -45,7 +45,7 @@ cannot be automated legally, thus you still have to accept the trade.
 
 This is the only feature of the perfume giver mode.
 
-# Chocolate Miner (< 1 gold on character)
+# Chocolate Miner (< 50 copper on character)
 
 In chocolate miner mode it is expected that you trade a character who is
 a perfume giver to receive a single perfume or cologne. You then need to use
