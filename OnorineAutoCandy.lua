@@ -46,7 +46,12 @@ function get_gifts()
     for bag = BACKPACK_CONTAINER, NUM_BAG_SLOTS do
         for slot = 1, GetContainerNumSlots(bag) do
             local itemid = GetContainerItemID(bag, slot)
-            if itemid == GIFT_OF_ADORATION_IRONFORGE then
+            if itemid == GIFT_OF_ADORATION_IRONFORGE or
+               itemid == GIFT_OF_ADORATION_DARNASSUS or
+               itemid == GIFT_OF_ADORATION_ORGRIMMAR or
+               itemid == GIFT_OF_ADORATION_STORMWIND or
+               itemid == GIFT_OF_ADORATION_THUNDERBLUFF or
+               itemid == GIFT_OF_ADORATION_UNDERCITY then
                 table.insert(bottles, { bag, slot })
             end
         end
