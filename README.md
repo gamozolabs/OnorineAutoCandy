@@ -1,6 +1,4 @@
-Made with love by Onorine - Jom Gabbar (previously Mutanus and Grobbulus)
-
-<unlimited breadsticks>
+Made with love by `Onorine - <unlimited breadsticks>`
 
 # Summary
 
