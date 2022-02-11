@@ -1,0 +1,8 @@
+## Interface: 11402
+## Title: Onorine's Auto Candy
+## Author: Onorine
+## Version: 0.0.1
+## SavedVariablesPerCharacter:
+
+OnorineAutoCandy.lua
+
